@@ -46,6 +46,9 @@ query(eh, "TCGA")
 tumor_samples = eh[["EH164"]]
 normal_sample = eh[["EH165"]]
 ```
+7. Re-normalize RNASeq data from TCGA using kallisto can be found [here](https://www.nature.com/articles/srep39259)
+
+
 # Sources for getting GTEx data 
 1. GTEx website 
 2. [Recount2](https://jhubiostatistics.shinyapps.io/recount/)
