@@ -30,13 +30,13 @@ This repository contains a brief outline for a 'Birds-of-Feather' (BOF) session 
     + mutation data, copy number data, protein expression RRPA, DNA methylation, miRNA isoform expression data. 
 5. [NCI's GDC website](https://portal.gdc.cancer.gov/) 
     + Nice interactive way of choosing samples, create a manifest file , and then download using gdc data 
+    + transfer tool
     + [NCI Cancer Genomics Cloud pilots](https://cbiit.nci.nih.gov/ncip/nci-cancer-genomics-cloud-pilots/access-the-cloud-pilot-platforms)
     + [FireCloud](https://software.broadinstitute.org/firecloud/)
     + [ISB-CGC](http://cgc.systemsbiology.net/)
     + [Seven Bridges Genomics](http://www.cancergenomicscloud.org/)
     + [NCI CGC Workshop/Tutorials](http://teamcgc.nci.nih.gov.s3-website-us-east-1.amazonaws.com/)
     + [NCI CGC Introduction PPT](https://www.slideshare.net/SteveTsang3/the-cancer-genomics-cloud-cgc-pilots-an-introduction)
-transfer tool.
 6. ExperimentHub() contains raw RNASeq gene counts from TCGA. [GSE62944](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944)
 
 ```{r eval=FALSE}
