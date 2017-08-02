@@ -18,16 +18,25 @@ This repository contains a brief outline for a 'Birds-of-Feather' (BOF) session 
 
 # Sources for getting TCGA data
 
-1. [TCGAbiolinks](http://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html)
-2. [Recount2](https://jhubiostatistics.shinyapps.io/recount/) 
+1. [NCI's Genomic Data Commons (GDC) website](https://portal.gdc.cancer.gov/) 
+    + Nice interactive way of choosing samples, create a manifest file , and then download using gdc data transfer tool.
+    + [NCI Cancer Genomics Cloud (CGC) pilots](https://cbiit.nci.nih.gov/ncip/nci-cancer-genomics-cloud-pilots/access-the-cloud-pilot-platforms)
+    + [Broad Institute - FireCloud](https://software.broadinstitute.org/firecloud/)
+    + [Institute for Systems Biology-CGC](http://cgc.systemsbiology.net/)
+    + [Seven Bridges Genomics CGC](http://www.cancergenomicscloud.org/)
+    + [NCI CGC Workshop/Tutorials by Team CGC](http://teamcgc.nci.nih.gov.s3-website-us-east-1.amazonaws.com/)
+    + [NCI CGC Introduction PPT](https://www.slideshare.net/SteveTsang3/the-cancer-genomics-cloud-cgc-pilots-an-introduction)
+2. [TCGAbiolinks](http://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html)
+3. [Recount2](https://jhubiostatistics.shinyapps.io/recount/) 
     + data is made available as a Bioconductor RangedSummarizedExperiment object.
     + data from select publications is also available
     + gene level and exon level data is present.
-3. [RTCGAToolbox](https://bioconductor.org/packages/release/bioc/html/RTCGAToolbox.html)
-4. [UCSC Xena Server](https://xenabrowser.net/datapages/?host=https://tcga.xenahubs.net)  
+4. [RTCGAToolbox](https://bioconductor.org/packages/release/bioc/html/RTCGAToolbox.html)
+5. [UCSC Xena Server](https://xenabrowser.net/datapages/?host=https://tcga.xenahubs.net)  
     + contains data from other sources too such as  ICGC, TARGET, GTEx , TOIL   
     + RNASeq data is present as log2(RPKM+1),no raw read counts to use as input for edgeR or DESeq2  
     + mutation data, copy number data, protein expression RRPA, DNA methylation, miRNA isoform expression data. 
+<<<<<<< HEAD
 5. [NCI's GDC website](https://portal.gdc.cancer.gov/) 
     + Nice interactive way of choosing samples, create a manifest file , and then download using gdc data 
     + transfer tool
@@ -37,6 +46,8 @@ This repository contains a brief outline for a 'Birds-of-Feather' (BOF) session 
     + [Seven Bridges Genomics](http://www.cancergenomicscloud.org/)
     + [NCI CGC Workshop/Tutorials](http://teamcgc.nci.nih.gov.s3-website-us-east-1.amazonaws.com/)
     + [NCI CGC Introduction PPT](https://www.slideshare.net/SteveTsang3/the-cancer-genomics-cloud-cgc-pilots-an-introduction)
+=======
+>>>>>>> upstream/master
 6. ExperimentHub() contains raw RNASeq gene counts from TCGA. [GSE62944](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944)
 
 ```{r eval=FALSE}
@@ -46,6 +57,9 @@ query(eh, "TCGA")
 tumor_samples = eh[["EH164"]]
 normal_sample = eh[["EH165"]]
 ```
+7. Re-normalize RNASeq data from TCGA using kallisto can be found [here](https://www.nature.com/articles/srep39259)
+
+
 # Sources for getting GTEx data 
 1. GTEx website 
 2. [Recount2](https://jhubiostatistics.shinyapps.io/recount/)
