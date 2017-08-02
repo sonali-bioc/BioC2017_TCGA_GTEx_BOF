@@ -24,6 +24,7 @@ This repository contains a brief outline for a 'Birds-of-Feather' (BOF) session 
     + [Broad Institute - FireCloud](https://software.broadinstitute.org/firecloud/)
     + [Institute for Systems Biology-CGC](http://cgc.systemsbiology.net/)
     + [Seven Bridges Genomics CGC](http://www.cancergenomicscloud.org/)
+        - [Data Cruncher - using R on the CGC](http://docs.cancergenomicscloud.org/docs/about-data-cruncher)
     + [NCI CGC Workshop/Tutorials by Team CGC](http://teamcgc.nci.nih.gov.s3-website-us-east-1.amazonaws.com/)
     + [NCI CGC Introduction PPT](https://www.slideshare.net/SteveTsang3/the-cancer-genomics-cloud-cgc-pilots-an-introduction)
 2. [TCGAbiolinks](http://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html)
